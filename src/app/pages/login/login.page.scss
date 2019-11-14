@@ -2,31 +2,33 @@
     position: absolute;
     left: 0;
     right: 0;
-    max-width: 200px;
-    max-height: 150px;
     width: auto;
     height: auto;
     margin: 0 auto;
     z-index: 2;
 
-    &.top {
+    &.top { 
         top: 5%;
     }
 
     &.bottom {
-        bottom: 25%;
+        bottom: 10%;
 
         span {
-            color: var(--ion-color-primary-contrast);
+            color: var(--ion-color-tertiary);
         }
     }
 }
 
+ion-slide { background-color: #ffece5; }
+
+ion-label { color: var(--ion-color-dark); }
+
 ion-slides {
-    height: 130%;
+    height: 100%;
 
     .slide-inner {
-        width: 70%;
+        width: 80%;
         color: var(--ion-color-primary-contrast);
         background-color: rgba(0, 0, 0, 0.4);
         border-radius: 10px;
@@ -42,24 +44,3 @@ ion-slides {
 
     }
 }
-
-.camera {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 54%;
-    background: #2c3440;
-
-    .film {
-        position: absolute;
-        top: -100px;
-        left: 0;
-        right: 0;
-        height: 100px;
-        background-image: url('/assets/img/filmstrip.png');
-    }
-}
-
-
-

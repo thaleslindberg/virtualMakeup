@@ -1,0 +1,22 @@
+.container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+
+    span {
+        color: var(--ion-color-tertiary);
+        top: 10px;
+    }
+
+    img {
+        opacity: 0.9;
+        filter: alpha(opacity=90);
+    }
+}
+
+ion-slides { 
+    height: 110%;
+}
