@@ -9,8 +9,6 @@ export class CropPage implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
-    
-   }
+  ngOnInit() { }
 
 }
